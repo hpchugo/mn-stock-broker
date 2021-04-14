@@ -1,4 +1,4 @@
-package com.github.hpchugo.stockbroker;
+package com.github.hpchugo.stockbroker.config;
 
 import io.micronaut.context.annotation.ConfigurationInject;
 import io.micronaut.context.annotation.ConfigurationProperties;

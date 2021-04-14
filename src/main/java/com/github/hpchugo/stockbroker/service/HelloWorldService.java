@@ -1,7 +1,6 @@
-package com.github.hpchugo.stockbroker;
+package com.github.hpchugo.stockbroker.service;
 
 import io.micronaut.context.annotation.Property;
-import io.micronaut.context.annotation.Value;
 import io.micronaut.context.event.StartupEvent;
 import io.micronaut.runtime.event.annotation.EventListener;
 import org.slf4j.Logger;

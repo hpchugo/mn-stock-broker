@@ -1,5 +1,9 @@
-package com.github.hpchugo.stockbroker;
+package com.github.hpchugo.stockbroker.controller;
 
+import com.github.hpchugo.stockbroker.config.GreetingConfig;
+import com.github.hpchugo.stockbroker.model.Greeting;
+import com.github.hpchugo.stockbroker.service.HelloWorldService;
+import io.micronaut.http.MediaType;
 import io.micronaut.http.annotation.Controller;
 import io.micronaut.http.annotation.Get;
 
@@ -28,4 +32,11 @@ public class HelloWorldController {
     public String greetInEnglish(){
         return config.getEn();
     }
+
+    @Get(value = "/json", produces = MediaType.APPLICATION_JSON)
+    public Greeting json(){
+        return new Greeting();
+    }
+
+
 }
