@@ -1,4 +1,4 @@
-package com.github.hpchugo.stockbroker;
+package com.github.hpchugo.stockbroker.controller;
 
 import io.micronaut.http.client.RxHttpClient;
 import io.micronaut.http.client.annotation.Client;
@@ -15,8 +15,8 @@ import javax.inject.Inject;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 @MicronautTest
-class MnStockBrokerTest {
-    private static final Logger LOG = LoggerFactory.getLogger(MnStockBrokerTest.class);
+class HelloWorldControllerTest {
+    private static final Logger LOG = LoggerFactory.getLogger(HelloWorldControllerTest.class);
 
     @Inject
     EmbeddedApplication<?> application;
