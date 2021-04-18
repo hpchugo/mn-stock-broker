@@ -1,0 +1,4 @@
+GET http://localhost:8082/quotes/jpa/pagination?page=1&volume=1
+Accept: application/json
+
+

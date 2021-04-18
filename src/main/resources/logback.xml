@@ -10,6 +10,10 @@
     </appender>
 
     <logger name="com.github.hpchugo.stockbroker" level="DEBUG" />
+    <logger name="org.flywaydb.com" level="INFO" />
+    <logger name="io.micronaut.flyway" level="INFO" />
+    <logger name="io.micronaut.data.query" level="INFO" />
+    <logger name="org.hibernate.SQL" level="INFO" />
 
     <root level="info">
         <appender-ref ref="STDOUT" />
